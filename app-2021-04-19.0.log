@@ -1,0 +1,457 @@
+2021-04-19 12:34:11.790  INFO 13884 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 13884 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 12:34:11.798  INFO 13884 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 12:34:13.162  INFO 13884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 12:34:13.234  INFO 13884 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 2 JPA repository interfaces.
+2021-04-19 12:34:14.466  INFO 13884 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ea3839e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 12:34:14.485  INFO 13884 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 12:34:14.769  INFO 13884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 12:34:15.031  INFO 13884 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 12:34:15.101  INFO 13884 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 12:34:15.158  INFO 13884 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 12:34:15.208  INFO 13884 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 12:34:15.430  INFO 13884 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 12:34:15.971  INFO 13884 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 12:34:15.981  INFO 13884 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 12:34:16.107  WARN 13884 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 12:34:16.210  INFO 13884 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 12:34:17.289  INFO 13884 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 12:34:17.405  INFO 13884 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 12:34:17.676  INFO 13884 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1509bd56, org.springframework.security.web.context.SecurityContextPersistenceFilter@1d82d35c, org.springframework.security.web.header.HeaderWriterFilter@350ede1, org.springframework.web.filter.CorsFilter@2c4eda3a, org.springframework.security.web.authentication.logout.LogoutFilter@1b1d93e9, com.microcredential.bankmanagement.config.JwtRequestFilter@5eff5e4c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2c376461, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b8c9729, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@466bf366, org.springframework.security.web.session.SessionManagementFilter@2f006edf, org.springframework.security.web.access.ExceptionTranslationFilter@7325b786, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2b71a12e]
+2021-04-19 12:34:18.927  INFO 13884 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 12:34:19.256  INFO 13884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 12:34:19.288  INFO 13884 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 12:34:19.324  INFO 13884 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 12:34:19.558  INFO 13884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 12:34:19.572  INFO 13884 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 12:34:19.600  INFO 13884 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 8.349 seconds (JVM running for 9.483)
+2021-04-19 12:34:19.673  INFO 13884 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 12:34:19.674  INFO 13884 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 12:34:19.674  INFO 13884 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-383
+2021-04-19 12:34:19.678  INFO 13884 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 12:34:19.707  INFO 13884 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 12:34:19.712  INFO 13884 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 12:34:19.713  INFO 13884 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 12:34:19.729  INFO 13884 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 12:34:19.739  INFO 13884 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 16:52:54.250  INFO 2332 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 2332 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 16:52:54.253  INFO 2332 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 16:52:55.827  INFO 2332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 16:52:55.921  INFO 2332 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2021-04-19 16:52:57.535  INFO 2332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5909ae90' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 16:52:57.558  INFO 2332 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 16:52:57.942  INFO 2332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 16:52:58.363  INFO 2332 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 16:52:58.491  INFO 2332 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 16:52:58.595  INFO 2332 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 16:52:58.682  INFO 2332 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 16:52:59.011  INFO 2332 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 16:52:59.857  INFO 2332 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 16:52:59.876  INFO 2332 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 16:53:00.122  WARN 2332 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 16:53:00.229  INFO 2332 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 16:53:01.865  INFO 2332 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 16:53:02.115  INFO 2332 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 16:53:02.542  INFO 2332 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49c74506, org.springframework.security.web.context.SecurityContextPersistenceFilter@36a59d8, org.springframework.security.web.header.HeaderWriterFilter@3123ac1a, org.springframework.web.filter.CorsFilter@2be9add0, org.springframework.security.web.authentication.logout.LogoutFilter@197c3101, com.microcredential.bankmanagement.config.JwtRequestFilter@67eabe02, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5295a774, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@403ba39f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2252dc5d, org.springframework.security.web.session.SessionManagementFilter@155cf9f6, org.springframework.security.web.access.ExceptionTranslationFilter@467625e3, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@618d2191]
+2021-04-19 16:53:04.068  INFO 2332 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 16:53:04.573  INFO 2332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 16:53:04.619  INFO 2332 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 16:53:04.678  INFO 2332 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 16:53:04.985  INFO 2332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 16:53:05.003  INFO 2332 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 16:53:05.048  INFO 2332 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 11.427 seconds (JVM running for 14.946)
+2021-04-19 16:53:49.186  INFO 2332 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 16:53:49.198  INFO 2332 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 16:53:49.205  INFO 2332 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-710
+2021-04-19 16:53:49.536  INFO 2332 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 16:54:30.965  INFO 2332 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 16:54:30.970  INFO 2332 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 16:54:30.971  INFO 2332 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 16:54:30.984  INFO 2332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 16:54:30.991  INFO 2332 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 16:56:52.736  INFO 11680 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 11680 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 16:56:52.740  INFO 11680 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 16:56:54.261  INFO 11680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 16:56:54.355  INFO 11680 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2021-04-19 16:56:55.912  INFO 11680 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@16df9bde' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 16:56:55.945  INFO 11680 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 16:56:56.332  INFO 11680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 16:56:56.771  INFO 11680 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 16:56:56.891  INFO 11680 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 16:56:57.008  INFO 11680 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 16:56:57.086  INFO 11680 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 16:56:57.415  INFO 11680 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 16:56:58.369  INFO 11680 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 16:56:58.405  INFO 11680 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 16:56:58.657  WARN 11680 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 16:56:58.793  INFO 11680 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 16:57:00.310  INFO 11680 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 16:57:00.559  INFO 11680 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 16:57:00.947  INFO 11680 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a9e44ff, org.springframework.security.web.context.SecurityContextPersistenceFilter@6101fd7d, org.springframework.security.web.header.HeaderWriterFilter@d96f413, org.springframework.web.filter.CorsFilter@1f8e1096, org.springframework.security.web.authentication.logout.LogoutFilter@57e35236, com.microcredential.bankmanagement.config.JwtRequestFilter@659e003e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@24c7b944, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7b6c3b37, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@13a35d3b, org.springframework.security.web.session.SessionManagementFilter@301b89e1, org.springframework.security.web.access.ExceptionTranslationFilter@144fc5fa, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@329cef32]
+2021-04-19 16:57:02.281  INFO 11680 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 16:57:02.733  INFO 11680 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 16:57:02.771  INFO 11680 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 16:57:02.821  INFO 11680 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 16:57:03.090  INFO 11680 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 16:57:03.105  INFO 11680 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 16:57:03.135  INFO 11680 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 11.03 seconds (JVM running for 12.854)
+2021-04-19 17:09:27.597  INFO 11680 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 17:09:56.585  INFO 11680 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 17:09:56.592  INFO 11680 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-502
+2021-04-19 17:10:12.225  INFO 11680 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 17:11:47.714  INFO 11680 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 17:11:47.718  INFO 11680 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 17:11:47.719  INFO 11680 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 17:11:47.735  INFO 11680 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 17:11:47.742  INFO 11680 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 17:12:40.534  INFO 1300 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 1300 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 17:12:40.539  INFO 1300 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 17:12:41.814  INFO 1300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 17:12:41.895  INFO 1300 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 69 ms. Found 2 JPA repository interfaces.
+2021-04-19 17:12:43.135  INFO 1300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@21b744ec' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 17:12:43.154  INFO 1300 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 17:12:43.451  INFO 1300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 17:12:43.707  INFO 1300 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 17:12:43.798  INFO 1300 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 17:12:43.874  INFO 1300 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 17:12:43.942  INFO 1300 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 17:12:44.219  INFO 1300 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 17:12:44.852  INFO 1300 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 17:12:44.865  INFO 1300 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 17:12:45.009  WARN 1300 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 17:12:45.120  INFO 1300 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 17:12:46.346  INFO 1300 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 17:12:46.499  INFO 1300 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 17:12:46.764  INFO 1300 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@381f05a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d96b8fb, org.springframework.security.web.header.HeaderWriterFilter@7325b786, org.springframework.web.filter.CorsFilter@375682a5, org.springframework.security.web.authentication.logout.LogoutFilter@3749c6ac, com.microcredential.bankmanagement.config.JwtRequestFilter@72406594, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20843604, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a76c90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79827e71, org.springframework.security.web.session.SessionManagementFilter@54a5eff, org.springframework.security.web.access.ExceptionTranslationFilter@21ebf9be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@113a89c5]
+2021-04-19 17:12:47.904  INFO 1300 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 17:12:48.242  INFO 1300 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 17:12:48.282  INFO 1300 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 17:12:48.325  INFO 1300 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 17:12:48.536  INFO 1300 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 17:12:48.546  INFO 1300 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 17:12:48.572  INFO 1300 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 8.523 seconds (JVM running for 9.786)
+2021-04-19 17:12:48.628  INFO 1300 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 17:12:48.629  INFO 1300 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 17:12:48.629  INFO 1300 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-465
+2021-04-19 17:12:48.634  INFO 1300 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 17:12:48.651  INFO 1300 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 17:12:48.655  INFO 1300 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 17:12:48.655  INFO 1300 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 17:12:48.669  INFO 1300 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 17:12:48.675  INFO 1300 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 17:21:41.253  INFO 11760 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 11760 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 17:21:41.257  INFO 11760 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 17:21:42.689  INFO 11760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 17:21:42.787  INFO 11760 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 84 ms. Found 2 JPA repository interfaces.
+2021-04-19 17:21:44.346  INFO 11760 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5560b64d' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 17:21:44.384  INFO 11760 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 17:21:44.763  INFO 11760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 17:21:45.208  INFO 11760 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 17:21:45.343  INFO 11760 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 17:21:45.448  INFO 11760 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 17:21:45.536  INFO 11760 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 17:21:45.920  INFO 11760 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 17:21:46.888  INFO 11760 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 17:21:46.908  INFO 11760 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 17:21:47.144  WARN 11760 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 17:21:47.262  INFO 11760 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 17:21:48.779  INFO 11760 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 17:21:49.011  INFO 11760 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 17:21:49.378  INFO 11760 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@27f6854b, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fad50f2, org.springframework.security.web.header.HeaderWriterFilter@d640fe6, org.springframework.web.filter.CorsFilter@72499396, org.springframework.security.web.authentication.logout.LogoutFilter@6c4a1980, com.microcredential.bankmanagement.config.JwtRequestFilter@600b3bee, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@36e9fd4f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@46bbcb82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65145fb7, org.springframework.security.web.session.SessionManagementFilter@6b72c62, org.springframework.security.web.access.ExceptionTranslationFilter@6101fd7d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@565bf1bb]
+2021-04-19 17:21:50.622  INFO 11760 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 17:21:51.071  INFO 11760 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 17:21:51.109  INFO 11760 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 17:21:51.155  INFO 11760 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 17:21:51.413  INFO 11760 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 17:21:51.426  INFO 11760 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 17:21:51.463  INFO 11760 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 10.817 seconds (JVM running for 12.761)
+2021-04-19 17:22:30.181  INFO 11760 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 17:22:30.192  INFO 11760 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 17:22:30.199  INFO 11760 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-410
+2021-04-19 17:22:30.412  INFO 11760 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 18:53:26.033  INFO 11760 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 18:53:26.038  INFO 11760 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 18:53:26.039  INFO 11760 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 18:53:26.054  INFO 11760 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 18:53:26.063  INFO 11760 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 19:21:00.649  INFO 12164 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 12164 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 19:21:00.652  INFO 12164 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 19:21:02.091  INFO 12164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 19:21:02.176  INFO 12164 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 2 JPA repository interfaces.
+2021-04-19 19:21:03.711  INFO 12164 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6630dd28' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 19:21:03.734  INFO 12164 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 19:21:04.098  INFO 12164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 19:21:04.535  INFO 12164 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 19:21:04.658  INFO 12164 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 19:21:04.769  INFO 12164 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 19:21:04.852  INFO 12164 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 19:21:05.187  INFO 12164 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 19:21:06.017  INFO 12164 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 19:21:06.033  INFO 12164 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 19:21:06.272  WARN 12164 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 19:21:06.401  INFO 12164 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 19:21:07.912  INFO 12164 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 19:21:08.156  INFO 12164 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 19:21:08.512  INFO 12164 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@72557e0d, org.springframework.security.web.context.SecurityContextPersistenceFilter@458500d1, org.springframework.security.web.header.HeaderWriterFilter@85eabca, org.springframework.web.filter.CorsFilter@14b4caba, org.springframework.security.web.authentication.logout.LogoutFilter@23657729, com.microcredential.bankmanagement.config.JwtRequestFilter@16269ff4, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@542759f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ea1fc9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@20305c45, org.springframework.security.web.session.SessionManagementFilter@2f4bc3ff, org.springframework.security.web.access.ExceptionTranslationFilter@678c0310, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@149bdb4e]
+2021-04-19 19:21:09.737  INFO 12164 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 19:21:10.223  INFO 12164 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 19:21:10.263  INFO 12164 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 19:21:10.310  INFO 12164 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 19:21:10.566  INFO 12164 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 19:21:10.580  INFO 12164 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 19:21:10.610  INFO 12164 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 10.515 seconds (JVM running for 12.318)
+2021-04-19 19:21:44.103  INFO 12164 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 19:21:44.114  INFO 12164 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 19:21:44.120  INFO 12164 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-163
+2021-04-19 19:21:44.333  INFO 12164 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 20:51:36.021  INFO 4824 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 4824 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 20:51:36.024  INFO 4824 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 20:51:37.509  INFO 4824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 20:51:37.601  INFO 4824 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 80 ms. Found 2 JPA repository interfaces.
+2021-04-19 20:51:39.099  INFO 4824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5abbb273' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 20:51:39.121  INFO 4824 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 20:51:39.508  INFO 4824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 20:51:40.017  INFO 4824 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 20:51:40.164  INFO 4824 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 20:51:40.283  INFO 4824 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 20:51:40.365  INFO 4824 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 20:51:40.700  INFO 4824 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 20:51:41.570  INFO 4824 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 20:51:41.587  INFO 4824 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 20:51:41.828  WARN 4824 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 20:51:41.923  INFO 4824 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 20:51:43.362  INFO 4824 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 20:51:43.624  INFO 4824 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 20:51:44.020  INFO 4824 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2746bc43, org.springframework.security.web.context.SecurityContextPersistenceFilter@321bf4b1, org.springframework.security.web.header.HeaderWriterFilter@704ca8a8, org.springframework.web.filter.CorsFilter@16d31c48, org.springframework.security.web.authentication.logout.LogoutFilter@fffb4a8, com.microcredential.bankmanagement.config.JwtRequestFilter@1a59500b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@623dc0b8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1b5e6983, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@783a35d8, org.springframework.security.web.session.SessionManagementFilter@4d62bb8b, org.springframework.security.web.access.ExceptionTranslationFilter@53ccbc15, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53a3ccc]
+2021-04-19 20:51:45.075  INFO 4824 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 20:51:45.638  INFO 4824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 20:51:45.682  INFO 4824 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 20:51:45.732  INFO 4824 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 20:51:45.993  INFO 4824 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 20:51:46.006  INFO 4824 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 20:51:46.036  INFO 4824 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 10.628 seconds (JVM running for 12.465)
+2021-04-19 20:52:17.720  INFO 860 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 860 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 20:52:17.724  INFO 860 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 20:52:19.124  INFO 860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 20:52:19.206  INFO 860 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 70 ms. Found 2 JPA repository interfaces.
+2021-04-19 20:52:20.667  INFO 860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5909ae90' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 20:52:20.689  INFO 860 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 20:52:21.072  INFO 860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 20:52:21.612  INFO 860 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 20:52:21.743  INFO 860 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 20:52:21.854  INFO 860 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 20:52:21.947  INFO 860 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 20:52:22.285  INFO 860 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 20:52:23.125  INFO 860 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 20:52:23.141  INFO 860 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 20:52:23.366  WARN 860 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 20:52:23.466  INFO 860 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 20:52:24.869  INFO 860 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 20:52:25.094  INFO 860 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 20:52:25.453  INFO 860 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@38821ada, org.springframework.security.web.context.SecurityContextPersistenceFilter@fee1e32, org.springframework.security.web.header.HeaderWriterFilter@53b81a55, org.springframework.web.filter.CorsFilter@2ab40d2d, org.springframework.security.web.authentication.logout.LogoutFilter@52d9a150, com.microcredential.bankmanagement.config.JwtRequestFilter@389a9ff6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5c85ed05, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@33c5e52f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@240b656f, org.springframework.security.web.session.SessionManagementFilter@321bf4b1, org.springframework.security.web.access.ExceptionTranslationFilter@437a4e61, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bfc6e50]
+2021-04-19 20:52:26.451  INFO 860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 20:52:26.870  INFO 860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 20:52:26.908  INFO 860 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 20:52:26.952  INFO 860 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 20:52:27.196  INFO 860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 20:52:27.209  INFO 860 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 20:52:27.243  INFO 860 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 10.105 seconds (JVM running for 11.83)
+2021-04-19 20:52:40.212  INFO 11176 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 11176 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 20:52:40.215  INFO 11176 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 20:52:41.623  INFO 11176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 20:52:41.709  INFO 11176 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 74 ms. Found 2 JPA repository interfaces.
+2021-04-19 20:52:43.176  INFO 11176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3c346c45' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 20:52:43.196  INFO 11176 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 20:52:43.530  INFO 11176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 20:52:43.968  INFO 11176 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 20:52:44.097  INFO 11176 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 20:52:44.204  INFO 11176 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 20:52:44.289  INFO 11176 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 20:52:44.613  INFO 11176 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 20:52:45.472  INFO 11176 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 20:52:45.487  INFO 11176 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 20:52:45.713  WARN 11176 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 20:52:45.812  INFO 11176 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 20:52:47.190  INFO 11176 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 20:52:47.423  INFO 11176 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 20:52:47.740  INFO 11176 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50177966, org.springframework.security.web.context.SecurityContextPersistenceFilter@739500b8, org.springframework.security.web.header.HeaderWriterFilter@144fc5fa, org.springframework.web.filter.CorsFilter@2199e1a4, org.springframework.security.web.authentication.logout.LogoutFilter@61d7df22, com.microcredential.bankmanagement.config.JwtRequestFilter@66c32e15, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3f3abe67, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@540ac21e, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1c63b39a, org.springframework.security.web.session.SessionManagementFilter@56c39949, org.springframework.security.web.access.ExceptionTranslationFilter@7966a964, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@26c349fc]
+2021-04-19 20:52:48.081  INFO 11176 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 20:52:48.509  INFO 11176 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 20:52:48.546  INFO 11176 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 20:52:48.595  INFO 11176 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 20:52:48.876  INFO 11176 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 20:52:48.889  INFO 11176 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 20:52:48.919  INFO 11176 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 9.269 seconds (JVM running for 10.987)
+2021-04-19 20:56:00.191  INFO 11176 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 20:58:52.315  INFO 11176 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 20:58:52.322  INFO 11176 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-647
+2021-04-19 21:00:46.044  INFO 11176 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 21:00:51.455  INFO 11176 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:00:51.460  INFO 11176 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:00:51.460  INFO 11176 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 21:00:51.473  INFO 11176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 21:00:51.479  INFO 11176 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 21:01:52.360  INFO 11672 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 11672 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 21:01:52.366  INFO 11672 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 21:01:53.570  INFO 11672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 21:01:53.647  INFO 11672 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 65 ms. Found 2 JPA repository interfaces.
+2021-04-19 21:01:54.799  INFO 11672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2ab8589a' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:01:54.819  INFO 11672 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:01:55.106  INFO 11672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 21:01:55.351  INFO 11672 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 21:01:55.437  INFO 11672 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 21:01:55.509  INFO 11672 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 21:01:55.568  INFO 11672 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 21:01:55.808  INFO 11672 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 21:01:56.409  INFO 11672 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 21:01:56.421  INFO 11672 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:01:56.565  WARN 11672 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 21:01:56.639  INFO 11672 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 21:01:57.847  INFO 11672 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 21:01:57.998  INFO 11672 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 21:01:58.277  INFO 11672 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@381f05a9, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d96b8fb, org.springframework.security.web.header.HeaderWriterFilter@7325b786, org.springframework.web.filter.CorsFilter@375682a5, org.springframework.security.web.authentication.logout.LogoutFilter@3749c6ac, com.microcredential.bankmanagement.config.JwtRequestFilter@72406594, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20843604, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a76c90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@79827e71, org.springframework.security.web.session.SessionManagementFilter@54a5eff, org.springframework.security.web.access.ExceptionTranslationFilter@21ebf9be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@113a89c5]
+2021-04-19 21:01:59.264  INFO 11672 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:01:59.614  INFO 11672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 21:01:59.651  INFO 11672 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 21:01:59.690  INFO 11672 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 21:01:59.920  INFO 11672 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 21:01:59.933  INFO 11672 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 21:01:59.957  INFO 11672 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 8.068 seconds (JVM running for 9.236)
+2021-04-19 21:02:00.023  INFO 11672 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 21:02:00.024  INFO 11672 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 21:02:00.025  INFO 11672 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-765
+2021-04-19 21:02:00.028  INFO 11672 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 21:02:00.051  INFO 11672 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:02:00.057  INFO 11672 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:02:00.058  INFO 11672 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 21:02:00.086  INFO 11672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 21:02:00.092  INFO 11672 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 21:03:01.164  INFO 3084 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 3084 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 21:03:01.167  INFO 3084 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 21:03:02.349  INFO 3084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 21:03:02.419  INFO 3084 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2021-04-19 21:03:03.556  INFO 3084 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@21b744ec' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:03:03.572  INFO 3084 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:03:03.844  INFO 3084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 21:03:04.090  INFO 3084 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 21:03:04.176  INFO 3084 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 21:03:04.264  INFO 3084 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 21:03:04.331  INFO 3084 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 21:03:04.581  INFO 3084 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 21:03:05.226  INFO 3084 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 21:03:05.238  INFO 3084 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:03:05.379  WARN 3084 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 21:03:05.471  INFO 3084 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 21:03:06.617  INFO 3084 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 21:03:06.771  INFO 3084 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 21:03:07.070  INFO 3084 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@28be7db5, org.springframework.security.web.context.SecurityContextPersistenceFilter@3d96b8fb, org.springframework.security.web.header.HeaderWriterFilter@7325b786, org.springframework.web.filter.CorsFilter@700596f9, org.springframework.security.web.authentication.logout.LogoutFilter@3749c6ac, com.microcredential.bankmanagement.config.JwtRequestFilter@72406594, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20843604, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4a76c90, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2ac00dc9, org.springframework.security.web.session.SessionManagementFilter@54a5eff, org.springframework.security.web.access.ExceptionTranslationFilter@21ebf9be, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@2898c70d]
+2021-04-19 21:03:08.051  INFO 3084 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:03:08.427  INFO 3084 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 21:03:08.458  INFO 3084 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 21:03:08.496  INFO 3084 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 21:03:08.705  INFO 3084 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 21:03:08.717  INFO 3084 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 21:03:08.741  INFO 3084 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 8.053 seconds (JVM running for 9.183)
+2021-04-19 21:03:08.797  INFO 3084 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 21:03:08.798  INFO 3084 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 21:03:08.798  INFO 3084 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-303
+2021-04-19 21:03:08.800  INFO 3084 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 21:03:08.821  INFO 3084 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:03:08.824  INFO 3084 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:03:08.825  INFO 3084 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 21:03:08.837  INFO 3084 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 21:03:08.842  INFO 3084 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 21:03:39.221  INFO 4540 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 4540 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 21:03:39.225  INFO 4540 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 21:03:40.661  INFO 4540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 21:03:40.752  INFO 4540 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2021-04-19 21:03:42.261  INFO 4540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2da5fdc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:03:42.295  INFO 4540 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:03:42.680  INFO 4540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 21:03:43.117  INFO 4540 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 21:03:43.241  INFO 4540 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 21:03:43.354  INFO 4540 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 21:03:43.457  INFO 4540 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 21:03:43.878  INFO 4540 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 21:03:44.741  INFO 4540 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 21:03:44.757  INFO 4540 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:03:44.985  WARN 4540 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 21:03:45.077  INFO 4540 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 21:03:46.477  INFO 4540 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 21:03:46.708  INFO 4540 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 21:03:47.036  INFO 4540 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1f8e1096, org.springframework.security.web.context.SecurityContextPersistenceFilter@16c3388e, org.springframework.security.web.header.HeaderWriterFilter@3f3abe67, org.springframework.web.filter.CorsFilter@13a35d3b, org.springframework.security.web.authentication.logout.LogoutFilter@29ceefb3, com.microcredential.bankmanagement.config.JwtRequestFilter@6b60d99c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@655875bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@135f760a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1cd93693, org.springframework.security.web.session.SessionManagementFilter@6b58a0f9, org.springframework.security.web.access.ExceptionTranslationFilter@41f3f64, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bff4b1f]
+2021-04-19 21:03:48.035  INFO 4540 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:03:48.492  INFO 4540 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 21:03:48.528  INFO 4540 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 21:03:48.573  INFO 4540 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 21:03:48.819  INFO 4540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 21:03:48.832  INFO 4540 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 21:03:48.861  INFO 4540 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 10.188 seconds (JVM running for 11.875)
+2021-04-19 21:07:31.696  INFO 4540 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 21:07:45.511  INFO 4540 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 21:07:45.519  INFO 4540 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-987
+2021-04-19 21:07:45.741  INFO 4540 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 21:41:17.924  INFO 4684 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 4684 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 21:41:17.927  INFO 4684 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 21:41:19.449  INFO 4684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 21:41:19.539  INFO 4684 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 78 ms. Found 2 JPA repository interfaces.
+2021-04-19 21:41:21.086  INFO 4684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@2da5fdc' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:41:21.109  INFO 4684 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:41:21.490  INFO 4684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 21:41:21.972  INFO 4684 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 21:41:22.101  INFO 4684 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 21:41:22.215  INFO 4684 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 21:41:22.310  INFO 4684 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 21:41:22.654  INFO 4684 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 21:41:23.499  INFO 4684 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 21:41:23.514  INFO 4684 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:41:23.760  WARN 4684 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 21:41:23.840  INFO 4684 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 21:41:25.294  INFO 4684 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 21:41:25.534  INFO 4684 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 21:41:25.891  INFO 4684 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@642693c2, org.springframework.security.web.context.SecurityContextPersistenceFilter@38320819, org.springframework.security.web.header.HeaderWriterFilter@301b89e1, org.springframework.web.filter.CorsFilter@63cff421, org.springframework.security.web.authentication.logout.LogoutFilter@46374b8, com.microcredential.bankmanagement.config.JwtRequestFilter@6b60d99c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d82ded2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@32192a69, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@27e42fe8, org.springframework.security.web.session.SessionManagementFilter@46ee9cfd, org.springframework.security.web.access.ExceptionTranslationFilter@56c39949, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@329cef32]
+2021-04-19 21:41:26.905  INFO 4684 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:41:27.348  INFO 4684 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 21:41:27.400  INFO 4684 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 21:41:27.451  INFO 4684 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 21:41:27.696  INFO 4684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 21:41:27.715  INFO 4684 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 21:41:27.743  INFO 4684 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 10.416 seconds (JVM running for 12.201)
+2021-04-19 21:41:35.052  INFO 4684 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 21:41:35.053  INFO 4684 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 21:41:35.053  INFO 4684 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-779
+2021-04-19 21:41:35.057  INFO 4684 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved
+2021-04-19 21:41:46.491  INFO 4684 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:41:46.495  INFO 4684 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:41:46.496  INFO 4684 --- [SpringContextShutdownHook] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-19 21:41:46.540  INFO 4684 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-19 21:41:46.546  INFO 4684 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-19 21:43:45.731  INFO 1016 --- [main] c.m.b.service.UserServiceTests           : Starting UserServiceTests using Java 11.0.7 on ctsjcloud159 with PID 1016 (started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-19 21:43:45.734  INFO 1016 --- [main] c.m.b.service.UserServiceTests           : No active profile set, falling back to default profiles: default
+2021-04-19 21:43:47.310  INFO 1016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-19 21:43:47.404  INFO 1016 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 82 ms. Found 2 JPA repository interfaces.
+2021-04-19 21:43:49.024  INFO 1016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5d5574c7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:43:49.047  INFO 1016 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-19 21:43:49.411  INFO 1016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-19 21:43:49.843  INFO 1016 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-19 21:43:49.970  INFO 1016 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-19 21:43:50.089  INFO 1016 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-19 21:43:50.185  INFO 1016 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-19 21:43:50.558  INFO 1016 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-19 21:43:51.491  INFO 1016 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-19 21:43:51.508  INFO 1016 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-19 21:43:51.726  WARN 1016 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-19 21:43:51.874  INFO 1016 --- [main] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-19 21:43:53.457  INFO 1016 --- [main] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-19 21:43:53.740  INFO 1016 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-19 21:43:54.245  INFO 1016 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1c0f32ad, org.springframework.security.web.context.SecurityContextPersistenceFilter@4d62bb8b, org.springframework.security.web.header.HeaderWriterFilter@6ea1fc9, org.springframework.web.filter.CorsFilter@5a4833ab, org.springframework.security.web.authentication.logout.LogoutFilter@152bb4cc, com.microcredential.bankmanagement.config.JwtRequestFilter@4e3c0627, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@6afdb486, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5c85ed05, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a920154, org.springframework.security.web.session.SessionManagementFilter@4cce889e, org.springframework.security.web.access.ExceptionTranslationFilter@6eb6750f, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@42626e86]
+2021-04-19 21:43:55.276  INFO 1016 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-19 21:43:55.757  INFO 1016 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-19 21:43:55.797  INFO 1016 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-19 21:43:55.845  INFO 1016 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-19 21:43:56.095  INFO 1016 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-19 21:43:56.108  INFO 1016 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-19 21:43:56.137  INFO 1016 --- [main] c.m.b.service.UserServiceTests           : Started UserServiceTests in 11.006 seconds (JVM running for 12.792)
+2021-04-19 21:44:02.886  INFO 1016 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice saveuser method
+2021-04-19 21:44:02.887  INFO 1016 --- [main] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-19 21:44:02.887  INFO 1016 --- [main] c.m.bankmanagement.utility.Userutils     : Userid is R-432
+2021-04-19 21:44:02.891  INFO 1016 --- [main] c.m.bankmanagement.service.UserService   : Inside userservice, new user has been saved

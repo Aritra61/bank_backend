@@ -1,0 +1,150 @@
+2021-04-16 11:07:39.036  INFO 10348 --- [restartedMain] c.m.b.BankmanagementApplication          : Starting BankmanagementApplication using Java 11.0.7 on ctsjcloud159 with PID 10348 (D:\Aritra\bankmanagement_java\bankmanagement\target\classes started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-16 11:07:39.044  INFO 10348 --- [restartedMain] c.m.b.BankmanagementApplication          : No active profile set, falling back to default profiles: default
+2021-04-16 11:07:39.122  INFO 10348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-16 11:07:39.123  INFO 10348 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-16 11:07:40.666  INFO 10348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-16 11:07:40.800  INFO 10348 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 121 ms. Found 2 JPA repository interfaces.
+2021-04-16 11:07:41.337  INFO 10348 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3503f155' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-16 11:07:41.346  INFO 10348 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-16 11:07:41.960  INFO 10348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-04-16 11:07:41.983  INFO 10348 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-16 11:07:41.984  INFO 10348 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-16 11:07:42.121  INFO 10348 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-16 11:07:42.122  INFO 10348 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2997 ms
+2021-04-16 11:07:42.190  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-16 11:07:42.441  INFO 10348 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-16 11:07:42.453  INFO 10348 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-16 11:07:42.714  INFO 10348 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-16 11:07:42.833  INFO 10348 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-16 11:07:43.117  INFO 10348 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-16 11:07:43.316  INFO 10348 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-16 11:07:44.191  INFO 10348 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-16 11:07:44.200  INFO 10348 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 11:07:44.625  INFO 10348 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-16 11:07:44.706  WARN 10348 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-16 11:07:44.754  INFO 10348 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-16 11:07:45.385  INFO 10348 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-16 11:07:45.470  INFO 10348 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-16 11:07:45.662  INFO 10348 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@71d30e6, org.springframework.security.web.context.SecurityContextPersistenceFilter@35bc7005, org.springframework.security.web.header.HeaderWriterFilter@284d2929, org.springframework.web.filter.CorsFilter@396662f5, org.springframework.security.web.authentication.logout.LogoutFilter@661e3d3, com.microcredential.bankmanagement.config.JwtRequestFilter@65df53a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f8e9cb8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@324e6045, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a6756c4, org.springframework.security.web.session.SessionManagementFilter@76e4e3d3, org.springframework.security.web.access.ExceptionTranslationFilter@195a73ff, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f35f4d8]
+2021-04-16 11:07:45.788  INFO 10348 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-16 11:07:46.100  INFO 10348 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-16 11:07:46.103  INFO 10348 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-16 11:07:46.129  INFO 10348 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-16 11:07:46.211  INFO 10348 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-16 11:07:46.459  INFO 10348 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-16 11:07:46.474  INFO 10348 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-16 11:07:46.521  INFO 10348 --- [restartedMain] c.m.b.BankmanagementApplication          : Started BankmanagementApplication in 8.153 seconds (JVM running for 9.375)
+2021-04-16 11:22:41.987  INFO 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:41.988  WARN 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:42.067  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:42.068  WARN 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:42.085  INFO 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:42.086  WARN 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:42.126  INFO 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:42.126  WARN 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:42.284  INFO 10348 --- [http-nio-8090-exec-5] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-16 11:22:42.285  INFO 10348 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-16 11:22:42.287  INFO 10348 --- [http-nio-8090-exec-5] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-04-16 11:22:42.289  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:42.289  WARN 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:42.296  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-16 11:22:44.524  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.524  WARN 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.564  INFO 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.564  INFO 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.564  WARN 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.564  WARN 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.566  INFO 10348 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.566  WARN 10348 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.574  INFO 10348 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.575  WARN 10348 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.593  INFO 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.593  WARN 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.596  INFO 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.596  WARN 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.596  INFO 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.596  WARN 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.597  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.597  WARN 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.598  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.598  WARN 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.604  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.604  WARN 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.612  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.612  WARN 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.613  INFO 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.613  WARN 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.618  INFO 10348 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.618  WARN 10348 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.618  INFO 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.619  WARN 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.699  INFO 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.699  WARN 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.715  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.717  WARN 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.717  INFO 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.716  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.718  WARN 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.718  WARN 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.715  INFO 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.721  WARN 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.717  INFO 10348 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.722  WARN 10348 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.717  INFO 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.723  WARN 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.731  INFO 10348 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.731  WARN 10348 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.738  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.738  WARN 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.746  INFO 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.747  INFO 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.747  WARN 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.747  WARN 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.749  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.749  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.749  WARN 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.749  WARN 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.749  INFO 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.749  WARN 10348 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.770  INFO 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:44.770  WARN 10348 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:44.770  INFO 10348 --- [http-nio-8090-exec-2] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-16 11:22:49.014  INFO 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:49.014  WARN 10348 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:22:49.045  INFO 10348 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:22:49.045  WARN 10348 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:23:23.762  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:23:23.762  WARN 10348 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:23:23.810  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.controller.UserController          : Inside saveuser method
+2021-04-16 11:23:23.958  INFO 10348 --- [http-nio-8090-exec-5] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-16 11:23:23.959  INFO 10348 --- [http-nio-8090-exec-5] c.m.bankmanagement.utility.Userutils     : Userid is R-310
+2021-04-16 11:23:24.018  INFO 10348 --- [http-nio-8090-exec-5] c.m.b.controller.UserController          : New user is savedUser [name=aritra chatterjee, username=ari, customerId=R-310, password=@123Admin, email=chattbullets@gmail.com, address=50/51/3 kali, gender=male, maritalStatus=unmarried, contactNumber=1234567890, accountType=salary, dateOfBirth=2021-04-07, accountnumber=4445209424770480, gurdianName=tbd, gurdianType=null, country=null, State=null, citizenShip=null, citizenStatus=null, dateOfRegistration=null, bankName=null, branchName=null, idproofType=null, iddocNumber=null, refaccholderName=null, refaccholderAccNo=null, refaccholderAddress=null]
+2021-04-16 11:23:30.423  INFO 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:23:30.424  WARN 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:23:30.443  INFO 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:23:30.443  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:23:30.443  WARN 10348 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:23:30.443  WARN 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:38:51.825  INFO 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:38:51.826  WARN 10348 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:38:51.836  INFO 10348 --- [http-nio-8090-exec-10] c.m.b.controller.UserController          : Inside getuserbyid method
+2021-04-16 11:38:51.850  INFO 10348 --- [http-nio-8090-exec-10] c.m.b.controller.UserController          : The user is retrivedOptional[User [name=aritra chatterjee, username=ari, customerId=R-310, password=@123Admin, email=chattbullets@gmail.com, address=50/51/3 kali, gender=male, maritalStatus=unmarried, contactNumber=1234567890, accountType=salary, dateOfBirth=2021-04-07, accountnumber=4445209424770480, gurdianName=tbd, gurdianType=null, country=null, State=null, citizenShip=null, citizenStatus=null, dateOfRegistration=null, bankName=null, branchName=null, idproofType=null, iddocNumber=null, refaccholderName=null, refaccholderAccNo=null, refaccholderAddress=null]]
+2021-04-16 11:38:54.859  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-16 11:38:54.859  WARN 10348 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-16 11:38:54.863  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.c.JwtAuthenticationController      : Inside createAuthenticationToken method
+2021-04-16 11:38:54.863  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.c.JwtAuthenticationController      : Inside authenticate method
+2021-04-16 11:38:54.978  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.service.JwtUserDetailsService      : Inside loadUserByUsername method and the username is R-310
+2021-04-16 11:38:55.199  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.service.JwtUserDetailsService      : Inside loadUserByUsername method and the username is R-310
+2021-04-16 11:38:55.378  INFO 10348 --- [http-nio-8090-exec-3] c.m.b.c.JwtAuthenticationController      : Authentication token is generated eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSLTMxMCIsImV4cCI6MTYxODU3MTMzNSwiaWF0IjoxNjE4NTUzMzM1fQ.tqld2748ue0rRck89m9wav-rjMdl1UZ8tTKPephd_wTl3P_FmEcLoyee0OyGIauzkHPbgtEM0xLB3LmBlLhv8w
+2021-04-16 11:38:58.136  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSLTMxMCIsImV4cCI6MTYxODU3MTMzNSwiaWF0IjoxNjE4NTUzMzM1fQ.tqld2748ue0rRck89m9wav-rjMdl1UZ8tTKPephd_wTl3P_FmEcLoyee0OyGIauzkHPbgtEM0xLB3LmBlLhv8w
+2021-04-16 11:38:58.163  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.service.JwtUserDetailsService      : Inside loadUserByUsername method and the username is R-310
+2021-04-16 11:38:58.281  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.controller.LoanController          : Inside getuserid method
+2021-04-16 11:38:58.286  INFO 10348 --- [http-nio-8090-exec-6] c.m.bankmanagement.utility.Loanutils     : Inside findloanbyid method
+2021-04-16 11:38:58.287  INFO 10348 --- [http-nio-8090-exec-6] c.m.b.controller.LoanController          : The Loanlist is not present[]
+2021-04-16 21:16:58.192  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-16 21:16:58.232  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-16 21:16:58.239  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-16 21:16:58.240  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-16 21:16:58.451  WARN 10348 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-04-16 21:16:58.451  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-16 21:16:58.457  INFO 10348 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

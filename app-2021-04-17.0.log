@@ -1,0 +1,314 @@
+2021-04-17 19:09:54.606  INFO 6844 --- [restartedMain] c.m.b.BankmanagementApplication          : Starting BankmanagementApplication using Java 11.0.7 on ctsjcloud159 with PID 6844 (D:\Aritra\bankmanagement_java\bankmanagement\target\classes started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-17 19:09:54.613  INFO 6844 --- [restartedMain] c.m.b.BankmanagementApplication          : No active profile set, falling back to default profiles: default
+2021-04-17 19:09:54.648  INFO 6844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 19:09:54.648  INFO 6844 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 19:09:55.406  INFO 6844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 19:09:55.449  INFO 6844 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 2 JPA repository interfaces.
+2021-04-17 19:09:55.755  INFO 6844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@644a35c7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-17 19:09:55.759  INFO 6844 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-17 19:09:56.748  INFO 6844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-04-17 19:09:56.757  INFO 6844 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-17 19:09:56.757  INFO 6844 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-17 19:09:56.865  INFO 6844 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-17 19:09:56.865  INFO 6844 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2215 ms
+2021-04-17 19:09:56.909  INFO 6844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-17 19:09:57.029  INFO 6844 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-17 19:09:57.035  INFO 6844 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-17 19:09:57.177  INFO 6844 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 19:09:57.220  INFO 6844 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-17 19:09:57.318  INFO 6844 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 19:09:57.410  INFO 6844 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-17 19:09:57.870  INFO 6844 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 19:09:57.884  INFO 6844 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 19:09:58.194  INFO 6844 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-17 19:09:58.240  WARN 6844 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-17 19:09:58.268  INFO 6844 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-17 19:09:58.596  INFO 6844 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-17 19:09:58.657  INFO 6844 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 19:09:58.779  INFO 6844 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7c56f467, org.springframework.security.web.context.SecurityContextPersistenceFilter@270e4783, org.springframework.security.web.header.HeaderWriterFilter@5dcb1c22, org.springframework.web.filter.CorsFilter@7dd89000, org.springframework.security.web.authentication.logout.LogoutFilter@c124f48, com.microcredential.bankmanagement.config.JwtRequestFilter@b54db7e, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1c1d5de2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3996df3a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d22efae, org.springframework.security.web.session.SessionManagementFilter@5f5ae1b5, org.springframework.security.web.access.ExceptionTranslationFilter@639f6aaf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1dd0cb40]
+2021-04-17 19:09:58.829  INFO 6844 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 19:09:59.024  INFO 6844 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 19:09:59.025  INFO 6844 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-17 19:09:59.063  INFO 6844 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-17 19:09:59.094  INFO 6844 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-17 19:09:59.232  INFO 6844 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-17 19:09:59.239  INFO 6844 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-17 19:09:59.259  INFO 6844 --- [restartedMain] c.m.b.BankmanagementApplication          : Started BankmanagementApplication in 4.98 seconds (JVM running for 5.843)
+2021-04-17 19:10:48.919  INFO 6844 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 19:10:48.920  INFO 6844 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-17 19:10:48.922  INFO 6844 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-04-17 19:10:48.961  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:10:48.961  WARN 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:10:49.027  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.controller.UserController          : Inside saveuser method
+2021-04-17 19:10:49.150  INFO 6844 --- [http-nio-8090-exec-1] c.m.bankmanagement.utility.Userutils     : Inside createuserid method
+2021-04-17 19:10:49.150  INFO 6844 --- [http-nio-8090-exec-1] c.m.bankmanagement.utility.Userutils     : Userid is R-943
+2021-04-17 19:10:49.190  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.controller.UserController          : New user is savedUser [name=aritra chatterjee, username=ari, customerId=R-943, password=@123Admin, email=chattbullets@gmail.com, address=50/51/3 kali, gender=male, maritalStatus=married, contactNumber=1234567890, accountType=savings, dateOfBirth=2021-04-07, accountnumber=1427232823450405, gurdianName=arun, gurdianType=null, country=null, State=null, citizenShip=null, citizenStatus=null, dateOfRegistration=null, bankName=null, branchName=null, idproofType=null, iddocNumber=null, refaccholderName=null, refaccholderAccNo=null, refaccholderAddress=null]
+2021-04-17 19:11:41.157  INFO 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:41.158  WARN 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:41.198  INFO 6844 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:41.198  WARN 6844 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:41.213  INFO 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:41.213  WARN 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:41.248  INFO 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:41.249  WARN 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:41.362  INFO 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:41.362  WARN 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:41.369  INFO 6844 --- [http-nio-8090-exec-5] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-17 19:11:43.088  INFO 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.089  WARN 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.134  INFO 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.134  WARN 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.136  INFO 6844 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.136  WARN 6844 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.137  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.137  WARN 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.138  INFO 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.138  WARN 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.159  INFO 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.160  WARN 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.160  INFO 6844 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.160  WARN 6844 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.160  INFO 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.161  WARN 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.162  INFO 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.162  WARN 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.163  INFO 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.164  WARN 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.167  INFO 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.167  WARN 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.176  INFO 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.177  WARN 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.177  INFO 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.178  WARN 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.178  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.178  INFO 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.178  WARN 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.178  WARN 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.222  INFO 6844 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.222  WARN 6844 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.233  INFO 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.233  WARN 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.234  INFO 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.234  WARN 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.234  INFO 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.234  WARN 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.235  INFO 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.235  WARN 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.239  INFO 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.239  WARN 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.240  INFO 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.240  WARN 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.243  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.243  WARN 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.243  INFO 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.243  WARN 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.246  INFO 6844 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.247  WARN 6844 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.248  INFO 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.248  WARN 6844 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.249  INFO 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.249  WARN 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.249  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.251  WARN 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.254  INFO 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.254  WARN 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.266  INFO 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:43.266  WARN 6844 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:43.266  INFO 6844 --- [http-nio-8090-exec-5] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-17 19:11:47.170  INFO 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:47.170  WARN 6844 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:11:47.206  INFO 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:11:47.206  WARN 6844 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:12:06.937  INFO 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:12:06.937  WARN 6844 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:12:06.942  INFO 6844 --- [http-nio-8090-exec-8] c.m.b.controller.UserController          : Inside getuserbyid method
+2021-04-17 19:12:06.957  INFO 6844 --- [http-nio-8090-exec-8] c.m.b.controller.UserController          : The user is retrivedOptional[User [name=aritra chatterjee, username=ari, customerId=R-943, password=@123Admin, email=chattbullets@gmail.com, address=50/51/3 kali, gender=male, maritalStatus=married, contactNumber=1234567890, accountType=savings, dateOfBirth=2021-04-07, accountnumber=1427232823450405, gurdianName=arun, gurdianType=null, country=null, State=null, citizenShip=null, citizenStatus=null, dateOfRegistration=null, bankName=null, branchName=null, idproofType=null, iddocNumber=null, refaccholderName=null, refaccholderAccNo=null, refaccholderAddress=null]]
+2021-04-17 19:12:15.215  INFO 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSLTMxMCIsImV4cCI6MTYxODU3MTMzNSwiaWF0IjoxNjE4NTUzMzM1fQ.tqld2748ue0rRck89m9wav-rjMdl1UZ8tTKPephd_wTl3P_FmEcLoyee0OyGIauzkHPbgtEM0xLB3LmBlLhv8w
+2021-04-17 19:12:15.289  WARN 6844 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token has expired
+2021-04-17 19:12:15.290  INFO 6844 --- [http-nio-8090-exec-3] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-17 19:12:17.374  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSLTMxMCIsImV4cCI6MTYxODU3MTMzNSwiaWF0IjoxNjE4NTUzMzM1fQ.tqld2748ue0rRck89m9wav-rjMdl1UZ8tTKPephd_wTl3P_FmEcLoyee0OyGIauzkHPbgtEM0xLB3LmBlLhv8w
+2021-04-17 19:12:17.376  WARN 6844 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token has expired
+2021-04-17 19:12:17.377  INFO 6844 --- [http-nio-8090-exec-1] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-17 19:12:18.765  INFO 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJSLTMxMCIsImV4cCI6MTYxODU3MTMzNSwiaWF0IjoxNjE4NTUzMzM1fQ.tqld2748ue0rRck89m9wav-rjMdl1UZ8tTKPephd_wTl3P_FmEcLoyee0OyGIauzkHPbgtEM0xLB3LmBlLhv8w
+2021-04-17 19:12:18.767  WARN 6844 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token has expired
+2021-04-17 19:12:18.768  INFO 6844 --- [http-nio-8090-exec-4] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-17 19:17:16.377  INFO 6844 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-17 19:17:16.423  INFO 6844 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-17 19:17:16.426  INFO 6844 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 19:17:16.427  INFO 6844 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-17 19:17:16.636  WARN 6844 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-04-17 19:17:16.636  INFO 6844 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-17 19:17:16.641  INFO 6844 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-17 19:17:33.631  INFO 392 --- [restartedMain] c.m.b.BankmanagementApplication          : Starting BankmanagementApplication using Java 11.0.7 on ctsjcloud159 with PID 392 (D:\Aritra\bankmanagement_java\bankmanagement\target\classes started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-17 19:17:33.635  INFO 392 --- [restartedMain] c.m.b.BankmanagementApplication          : No active profile set, falling back to default profiles: default
+2021-04-17 19:17:33.672  INFO 392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 19:17:33.672  INFO 392 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 19:17:34.485  INFO 392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 19:17:34.535  INFO 392 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 44 ms. Found 2 JPA repository interfaces.
+2021-04-17 19:17:34.814  INFO 392 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@3c810f64' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-17 19:17:34.821  INFO 392 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-17 19:17:35.797  INFO 392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-04-17 19:17:35.809  INFO 392 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-17 19:17:35.810  INFO 392 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-17 19:17:35.878  INFO 392 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-17 19:17:35.878  INFO 392 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2205 ms
+2021-04-17 19:17:35.917  INFO 392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-17 19:17:36.026  INFO 392 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-17 19:17:36.031  INFO 392 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-17 19:17:36.153  INFO 392 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 19:17:36.182  INFO 392 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-17 19:17:36.261  INFO 392 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 19:17:36.334  INFO 392 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-17 19:17:36.760  INFO 392 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 19:17:36.767  INFO 392 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 19:17:37.065  INFO 392 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-17 19:17:37.119  WARN 392 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-17 19:17:37.147  INFO 392 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-17 19:17:37.488  INFO 392 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-17 19:17:37.527  INFO 392 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 19:17:37.645  INFO 392 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@61be79f7, org.springframework.security.web.context.SecurityContextPersistenceFilter@353ccce0, org.springframework.security.web.header.HeaderWriterFilter@65d0405a, org.springframework.web.filter.CorsFilter@765cf207, org.springframework.security.web.authentication.logout.LogoutFilter@2861c7fd, com.microcredential.bankmanagement.config.JwtRequestFilter@7afa63a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@9c35ffe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d67c344, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3a8e8953, org.springframework.security.web.session.SessionManagementFilter@229e67d4, org.springframework.security.web.access.ExceptionTranslationFilter@44ca7281, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3a99a174]
+2021-04-17 19:17:37.705  INFO 392 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 19:17:37.905  INFO 392 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 19:17:37.907  INFO 392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-17 19:17:37.942  INFO 392 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-17 19:17:37.970  INFO 392 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-17 19:17:38.140  INFO 392 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-17 19:17:38.148  INFO 392 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-17 19:17:38.167  INFO 392 --- [restartedMain] c.m.b.BankmanagementApplication          : Started BankmanagementApplication in 4.9 seconds (JVM running for 5.732)
+2021-04-17 19:17:57.586  INFO 392 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-17 19:17:57.638  INFO 392 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-17 19:17:57.647  INFO 392 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 19:17:57.647  INFO 392 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-17 19:17:57.867  WARN 392 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-04-17 19:17:57.868  INFO 392 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-17 19:17:57.876  INFO 392 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-04-17 19:18:00.854  INFO 2416 --- [restartedMain] c.m.b.BankmanagementApplication          : Starting BankmanagementApplication using Java 11.0.7 on ctsjcloud159 with PID 2416 (D:\Aritra\bankmanagement_java\bankmanagement\target\classes started by javacloudmc631 in D:\Aritra\bankmanagement_java\bankmanagement)
+2021-04-17 19:18:00.856  INFO 2416 --- [restartedMain] c.m.b.BankmanagementApplication          : No active profile set, falling back to default profiles: default
+2021-04-17 19:18:00.898  INFO 2416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-04-17 19:18:00.898  INFO 2416 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-04-17 19:18:01.759  INFO 2416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-04-17 19:18:01.798  INFO 2416 --- [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 2 JPA repository interfaces.
+2021-04-17 19:18:02.074  INFO 2416 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4e18b52' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-17 19:18:02.077  INFO 2416 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-04-17 19:18:02.280  INFO 2416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8090 (http)
+2021-04-17 19:18:02.288  INFO 2416 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-04-17 19:18:02.288  INFO 2416 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-04-17 19:18:02.403  INFO 2416 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-04-17 19:18:02.403  INFO 2416 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1504 ms
+2021-04-17 19:18:02.452  INFO 2416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-04-17 19:18:02.569  INFO 2416 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-04-17 19:18:02.576  INFO 2416 --- [restartedMain] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-04-17 19:18:02.727  INFO 2416 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-04-17 19:18:02.770  INFO 2416 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-04-17 19:18:02.887  INFO 2416 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-04-17 19:18:02.983  INFO 2416 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-04-17 19:18:03.402  INFO 2416 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-04-17 19:18:03.408  INFO 2416 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 19:18:03.680  INFO 2416 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-04-17 19:18:03.744  WARN 2416 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-04-17 19:18:03.771  INFO 2416 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configureGlobal method
+2021-04-17 19:18:04.118  INFO 2416 --- [restartedMain] c.m.b.config.WebSecurityConfig           : Inside configure method
+2021-04-17 19:18:04.158  INFO 2416 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-04-17 19:18:04.265  INFO 2416 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5d478aa4, org.springframework.security.web.context.SecurityContextPersistenceFilter@9c91db7, org.springframework.security.web.header.HeaderWriterFilter@4932237d, org.springframework.web.filter.CorsFilter@6af0d307, org.springframework.security.web.authentication.logout.LogoutFilter@640d2b15, com.microcredential.bankmanagement.config.JwtRequestFilter@5ba1ab9d, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@688ef91f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e0e5c88, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@609e7f4e, org.springframework.security.web.session.SessionManagementFilter@399af86d, org.springframework.security.web.access.ExceptionTranslationFilter@67d08bc2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@75c1d44d]
+2021-04-17 19:18:04.333  INFO 2416 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-04-17 19:18:04.495  INFO 2416 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8090 (http) with context path ''
+2021-04-17 19:18:04.496  INFO 2416 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-04-17 19:18:04.510  INFO 2416 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-04-17 19:18:04.531  INFO 2416 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-04-17 19:18:04.662  INFO 2416 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: getUserbyIdUsingGET_1
+2021-04-17 19:18:04.670  INFO 2416 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: saveUserUsingPOST_1
+2021-04-17 19:18:04.689  INFO 2416 --- [restartedMain] c.m.b.BankmanagementApplication          : Started BankmanagementApplication in 4.143 seconds (JVM running for 4.887)
+2021-04-17 19:18:59.577  INFO 2416 --- [http-nio-8090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-04-17 19:18:59.579  INFO 2416 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-04-17 19:18:59.582  INFO 2416 --- [http-nio-8090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-04-17 19:18:59.609  INFO 2416 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:18:59.609  WARN 2416 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:18:59.629  INFO 2416 --- [http-nio-8090-exec-1] c.m.b.controller.UserController          : Inside getuserbyid method
+2021-04-17 19:18:59.665  INFO 2416 --- [http-nio-8090-exec-1] c.m.b.controller.UserController          : The user is not presentOptional.empty
+2021-04-17 19:19:15.947  INFO 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:15.947  WARN 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:15.993  INFO 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:15.994  WARN 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:16.013  INFO 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:16.014  WARN 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:16.039  INFO 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:16.039  WARN 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:16.040  INFO 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:16.040  WARN 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:16.088  INFO 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:16.089  WARN 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:16.121  INFO 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:16.122  WARN 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:16.130  INFO 2416 --- [http-nio-8090-exec-10] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-17 19:19:17.937  INFO 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:17.937  WARN 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:17.975  INFO 2416 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:17.975  WARN 2416 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:17.978  INFO 2416 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:17.978  WARN 2416 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:17.981  INFO 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:17.982  WARN 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:17.982  INFO 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:17.982  WARN 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.001  INFO 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.001  INFO 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.001  WARN 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.001  INFO 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.002  WARN 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.002  INFO 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.002  WARN 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.002  INFO 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.002  WARN 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.002  WARN 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.012  INFO 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.012  WARN 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.019  INFO 2416 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.019  WARN 2416 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.019  INFO 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.019  WARN 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.020  INFO 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.020  WARN 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.021  INFO 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.022  WARN 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.060  INFO 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.061  WARN 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.069  INFO 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.069  WARN 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.069  INFO 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.070  WARN 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.070  INFO 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.070  WARN 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.071  INFO 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.071  WARN 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.072  INFO 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.072  WARN 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.074  INFO 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.074  WARN 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.081  INFO 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.081  WARN 2416 --- [http-nio-8090-exec-3] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.082  INFO 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.082  WARN 2416 --- [http-nio-8090-exec-5] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.091  INFO 2416 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.091  WARN 2416 --- [http-nio-8090-exec-1] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.091  INFO 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.091  WARN 2416 --- [http-nio-8090-exec-7] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.091  INFO 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.092  WARN 2416 --- [http-nio-8090-exec-6] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.092  INFO 2416 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.093  WARN 2416 --- [http-nio-8090-exec-9] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.091  INFO 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.093  WARN 2416 --- [http-nio-8090-exec-4] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.107  INFO 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:18.107  WARN 2416 --- [http-nio-8090-exec-2] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:18.107  INFO 2416 --- [http-nio-8090-exec-2] c.m.b.c.JwtAuthenticationEntryPoint      : Inside commence method
+2021-04-17 19:19:21.570  INFO 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:21.570  WARN 2416 --- [http-nio-8090-exec-10] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 19:19:21.602  INFO 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : Inside doFilterInternal method null
+2021-04-17 19:19:21.602  WARN 2416 --- [http-nio-8090-exec-8] c.m.b.config.JwtRequestFilter            : JWT Token does not begin with Bearer String
+2021-04-17 22:03:30.101  INFO 2416 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2021-04-17 22:03:30.141  INFO 2416 --- [RMI TCP Connection(2)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-04-17 22:03:30.144  INFO 2416 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-04-17 22:03:30.145  INFO 2416 --- [RMI TCP Connection(2)-127.0.0.1] .SchemaDropperImpl$DelayedDropActionImpl : HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-04-17 22:03:30.357  WARN 2416 --- [RMI TCP Connection(2)-127.0.0.1] o.s.b.f.support.DisposableBeanAdapter    : Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-04-17 22:03:30.359  INFO 2416 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-04-17 22:03:30.364  INFO 2416 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
